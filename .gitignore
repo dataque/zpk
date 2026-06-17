@@ -1,0 +1,15 @@
+.DS_Store
+
+# secrets — NEVER commit (would defeat the whole encryption scheme)
+secret.key
+
+# plaintext source-of-truth mirrors — local only
+scripts/
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# NOTE: bin/*.pyc are the ENCRYPTED published artifacts and MUST be committed,
+# so *.pyc is intentionally NOT ignored.
