@@ -11,5 +11,4 @@ __pycache__/
 .venv/
 venv/
 
-# NOTE: bin/*.pyc are the ENCRYPTED published artifacts and MUST be committed,
-# so *.pyc is intentionally NOT ignored.
+
